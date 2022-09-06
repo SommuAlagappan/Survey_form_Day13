@@ -1,0 +1,9 @@
+.stars{
+    color: rgb(255, 190, 14)
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+    font-size:x-large;
+}
